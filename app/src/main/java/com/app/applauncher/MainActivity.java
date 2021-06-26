@@ -2,9 +2,7 @@ package com.app.applauncher;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.SearchView;
 import androidx.core.app.ActivityCompat;
-import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -12,7 +10,6 @@ import android.Manifest;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
@@ -23,10 +20,12 @@ import android.provider.Settings;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
-import android.util.Pair;
-import android.widget.Adapter;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.app.applauncher.Wallpaper_Data.Favorite_Wallpaper;
+import com.app.applauncher.Wallpaper_Data.MaterialWall;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -66,6 +65,20 @@ public class MainActivity extends AppCompatActivity {
             public void afterTextChanged(Editable editable) {
                 Log.d("check", "afterTextChanged: "+editable);
                 filterQuery(editable.toString());
+            }
+        });
+        findViewById(R.id.set_wall).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MaterialWall.class);
+               startActivity(intent);
+            }
+        });
+        findViewById(R.id.fav_wall).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Favorite_Wallpaper.class);
+               startActivity(intent);
             }
         });
     }

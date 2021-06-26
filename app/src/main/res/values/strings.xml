@@ -1,3 +1,41 @@
 <resources>
     <string name="app_name">App Launcher</string>
+
+    <!--title tab menu and sort option-->
+
+    <!--toolbar main menu-->
+
+    <!--wallpaper and category aspect ratio-->
+    <string name="wallpaper_image_ratio">H,1:1.5</string>
+
+    <!--set wallpaper option-->
+    <string name="dialog_set_title">Set As : </string>
+    <string name="set_home_screen">Home Screen</string>
+    <string name="set_lock_screen">Lock Screen</string>
+    <string name="set_both">Home and Lock Screens</string>
+    <string name="set_crop">Crop</string>
+    <string name="set_with">Set With&#8230;</string>
+    <string name="dialog_option_ok">OK</string>
+    <string name="dialog_option_cancel">Cancel</string>
+    <string name="btn_set_wallpaper">SET WALLPAPER</string>
+
+    <!--snack bar message-->
+    <string name="snack_bar_applying">Applying&#8230;</string>
+    <string name="snack_bar_applied">Wallpaper applied.</string>
+    <string name="snack_bar_failed">Wallpaper not set.</string>
+    <string name="snack_bar_error">Failed! Please try again later.</string>
+    <string name="snack_bar_preparing">Preparing&#8230;</string>
+    <string name="snack_bar_saving">Saving&#8230;</string>
+    <string name="snack_bar_saved">Wallpaper saved.</string>
+    <string name="snack_bar_favorite_removed">Wallpaper removed from favorite</string>
+    <string name="snack_bar_favorite_added">Wallpaper added to favorite</string>
+
+    <!--network & error message-->
+    <string name="failed_title_text">Whoops!</string>
+    <string name="failed_text">there is something problem with your network or the server is currently down, please try it again later.</string>
+    <string name="msg_no_item">It looks like there are no wallpapers available in this section.</string>
+    <string name="btn_retry">Retry</string>
+
+    <!--settings and others-->
+
 </resources>

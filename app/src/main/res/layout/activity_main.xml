@@ -26,13 +26,12 @@
             android:layout_marginLeft="10dp"
             android:ellipsize="end"
             android:maxLines="1"
-            android:textAlignment="center"
-
             android:text="@string/app_name"
+
+            android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:textStyle="bold" />
-
 
 
     </RelativeLayout>
@@ -64,48 +63,81 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:orientation="vertical">
 
-            <EditText
-                android:id="@+id/search_input"
-                android:layout_width="0.0dip"
-                android:layout_height="fill_parent"
-                android:layout_weight="1.0"
-                android:background="@android:color/transparent"
-                android:hint="Search"
-                android:imeOptions="actionSearch"
-                android:maxLines="1"
-                android:singleLine="true" />
 
-            <EditText
-                android:id="@+id/editText_s"
+            <LinearLayout
                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editText_s"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_text_bg"
+                    android:gravity="center_vertical"
+                    android:hint="Search app name"
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="20dp"
+                    android:textColor="@color/purple_200"
+                    android:textColorHint="@android:color/darker_gray"
+                    android:visibility="visible"
+                    app:iconifiedByDefault="false" />
+
+                <TextView
+                    android:id="@+id/set_wall"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit_text_bg"
+                    android:ellipsize="end"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="5dp"
+                    android:text="Set Wallpaper"
+                    android:textAlignment="center"
+                    android:textColor="@color/purple_200"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/fav_wall"
+                android:layout_width="wrap_content"
                 android:layout_height="50dp"
-                android:layout_gravity="center_vertical"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="12dp"
-                android:layout_marginEnd="12dp"
-                android:layout_marginBottom="20dp"
+                android:layout_margin="@dimen/_10sdp"
                 android:background="@drawable/edit_text_bg"
-                android:gravity="center_vertical"
-                android:hint="Search app name"
-                android:imeOptions="actionSearch"
-                android:inputType="text"
+                android:ellipsize="end"
                 android:maxLines="1"
-                android:paddingStart="@dimen/_10sdp"
-                android:paddingEnd="20dp"
+                android:padding="@dimen/_10sdp"
+                android:text="Fav Wallpaper"
+                android:textAlignment="center"
                 android:textColor="@color/purple_200"
-                android:textColorHint="@android:color/darker_gray"
-                android:visibility="visible"
-                app:iconifiedByDefault="false" />
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recycleView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:layout_marginBottom="80dp"
+                android:layout_marginBottom="0dp"
                 android:scrollbars="vertical"
                 app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
                 tools:listitem="@layout/item_app" />

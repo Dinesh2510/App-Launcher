@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="_10sdp">10dp</dimen>
+    <dimen name="spacing_middle">10dp</dimen>
+    <dimen name="spacing_xxlarge">40dp</dimen>
+
+    <dimen name="grid_space_wallpaper">4dp</dimen>
+    <dimen name="wallpaper_corner_radius">8dp</dimen>
+
 </resources>

@@ -7,4 +7,30 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+    <!--default theme color-->
+    <color name="colorPrimary">#4baf4f</color>
+    <color name="colorPrimaryDark">#4baf4f</color>
+    <color name="colorAccent">#59CF5E</color>
+    <color name="colorBackgroundLight">#FFFFFF</color>
+
+    <!--dark theme color-->
+    <color name="colorToolbarDark">#222D36</color>
+    <color name="colorAccentDark">#4e575d</color>
+    <color name="colorBackgroundDark">#101D24</color>
+
+    <!--other-->
+
+    <color name="grey_soft">#E0E0E0</color>
+    <color name="colorShimmer">#BCBEC1</color>
+    <color name="separator">#efefef</color>
+
+    <!--tab color-->
+    <!--    <color name="tabIndicatorColor">#FFFFFF</color>-->
+    <!--    <color name="tabSelectedTextColor">#FFFFFF</color>-->
+    <!--    <color name="tabTextColor">#80FFFFFF</color>-->
+
+
+    <!--do not change this-->
 </resources>
