@@ -7,6 +7,15 @@
 |   1.     | **App Launcher** |  <button>[Download](https://github.com/Dinesh2510/App-Launcher/raw/master/app-debug.apk) </button> | **1.0** |
 
 
+## 🎉Features🎉
+
+#### ➡️ List of All Installed on Phone
+#### ➡️ Onclick App will Open
+#### ➡️ LongPress App Setting Open
+#### ➡️ List of Wallaper From Server
+#### ➡️ Set Wallpaper With Crop, share, download avaliable
+#### ➡️ Add to Wishlist wallpaper using Sqlite
+
 ## DEMO
 
 1 | 2
