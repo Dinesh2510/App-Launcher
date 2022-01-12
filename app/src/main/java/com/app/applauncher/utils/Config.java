@@ -3,8 +3,8 @@ package com.app.applauncher.utils;
 
 public class Config {
 
-    public static final String ADMIN_PANEL_URL = "https://solodroid.id/codecanyon/demo/material_wallpaper";
-    public static final String BASE_IMAGE_URL = "https://solodroid.id/codecanyon/demo/material_wallpaper/upload/";
+    public static final String ADMIN_PANEL_URL = "ADD_URL_PANLE";
+    public static final String BASE_IMAGE_URL = "UPLOAD_IMAGE_PATH";
 
 
     //column count
