@@ -27,12 +27,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppLauncher"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Wallpaper_Data.Favorite_Wallpaper"></activity>
-        <activity android:name=".Wallpaper_Data.ActivityWallpaperDetail" />
-        <activity android:name=".Wallpaper_Data.ActivityCropWallpaper" />
-        <activity android:name=".Wallpaper_Data.MaterialWall" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreen"
+            android:exported="true"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:stateNotNeeded="true">
@@ -44,6 +41,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Wallpaper_Data.Favorite_Wallpaper" />
+        <activity android:name=".Wallpaper_Data.ActivityWallpaperDetail" />
+        <activity android:name=".Wallpaper_Data.ActivityCropWallpaper" />
+        <activity android:name=".Wallpaper_Data.MaterialWall" />
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
