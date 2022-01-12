@@ -50,7 +50,7 @@ public class MaterialWall extends AppCompatActivity {
     private String single_choice_selected;
     Wallpaper wallpaper;
     List<Wallpaper> items = new ArrayList<>();
-    String all_url = "https://solodroid.id/codecanyon/demo/material_wallpaper/api/v1/api.php?get_wallpapers&page=1&count=100&filter=g.image_extension != 'all'&order=ORDER BY g.id DESC";
+    String all_url = "Need url";
     private static final String ARG_ORDER = "order";
     private static final String ARG_FILTER = "filter";
     private RecyclerView recyclerView;

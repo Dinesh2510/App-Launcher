@@ -3,8 +3,9 @@ package com.app.applauncher.utils;
 
 public class Config {
 
-    public static final String ADMIN_PANEL_URL = "ADD_URL_PANLE";
-    public static final String BASE_IMAGE_URL = "UPLOAD_IMAGE_PATH";
+
+    public static final String ADMIN_PANEL_URL = "";
+    public static final String BASE_IMAGE_URL = "";
 
 
     //column count
